@@ -1,7 +1,7 @@
 USE ecommercedb;
 SHOW TABLES;
 
-GRANT SELECT ON ecommercedb.orders TO 'pwskills'@'localhost';
+GRANT SELECT ON ecommercedb.orders TO 'root'@'localhost';
 FLUSH PRIVILEGES;
 
 SELECT * FROM products WHERE ProductID = 2;
