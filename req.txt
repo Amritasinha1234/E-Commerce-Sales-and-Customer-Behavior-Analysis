@@ -1,0 +1,4 @@
+Flask
+flask-socketio
+flask-sqlalchemy
+mysql-connector-python
